@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+:root{
+    --primary-color: #008293;
+    --poppins: "Poppins", sans-serif;
+    --hover1: #FAB70F;
+}
+
+#navbar{
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+
+}
+
+#navbar-logo{
+    width: 125px;
+}
+
+#navbar-link{
+    color: var(--primary-color);
+    font-size: 14px ;
+    font-family: var(--poppins);
+    font-weight: 500;
+}
+
+#navbar-link-active {
+    color: var(--hover1);
+    font-size: 14px ;
+    font-family: var(--poppins);
+    font-weight: 500;
+} 
+
+#navbar-link:hover{
+    color: var(--hover1);
+}
+
+/* #navbar-item{
+    margin-left: 20px;
+} */
+
+#navbar-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+#navbar_email_content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+     gap: 10px;
+ }
+
+#navbar-email-icons-div{
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar_email_icon{
+    color: white;
+    font-size: 15px;
+}
+
+#navbar_phone_content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+     gap: 10px;
+}
+
+#navbar-email-text{
+    margin-top: 14px;
+    color: var(--primary-color);
+    font-size: 14px ;
+    font-family: var(--poppins);
+    font-weight: 500;
+}
+
+#navbar-email-text:hover{
+    color: var(--hover1);
+}
+
+#navbar-phone-icons-div{
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar_phone_icon{
+    color: white;
+    font-size: 13px;
+}
+
+#navbar-phone-text{
+    margin-top: 15px;
+    color: var(--primary-color);
+    font-size: 14px ;
+    font-family: var(--poppins);
+    font-weight: 500;
+}
+
+
+#navbar-phone-text:hover{
+    color: var(--hover1);
+}
+
+
+
+/* 991 */
+
+@media (max-width: 991px){
+
+    /* #navbar{
+        background-color: var(--primary-color);
+    } */
+
+    #navbar-flex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: -30px;
+    }
+
+    #navbar_email_content{
+        margin-top: -20px;
+    }
+
+    #navbar_phone_content{
+        margin-top: -30px;
+    }
+}
