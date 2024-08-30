@@ -131,7 +131,47 @@ function Home() {
                </div>
                 </div>
             </div>
-          </section>
+            </div>
+
+            <div className="col-12 col-xl-6">
+              <img id="section3-slide-img" src={img5} alt={img5} />
+            </div>
+
+        </div>
+
+        {/* Section 4 */}
+
+        <div className="row" id="section4">
+           <div id="section4-div-1">
+             <h6 id="section4-h6-1">Our services</h6>
+             <p id="section4-sub-content">Premier’s Service Talent Solutions: Connecting Excellence with opportunity</p>
+           </div>  
+
+            <div className="row" id="section4-row">
+
+          
+{
+  services.map((data) => (
+    <div  className="col-12 col-sm-6 col-md-6 col-lg-6" id="services-col">
+    <div class="card" id="section4-card" onMouseOver={() => setValue(`${data.id}`)}  onMouseOut={() => setValue() }>
+    <div id="section4-svg-icon">
+        <img id="section4-card-icons" src={data.img} alt={data.img} />
+    </div>
+    <div class="card-body">
+      <h5 class="card-title" id={value === `${data.id}` ? "section4-card-title-hover" : "section4-card-title" }>{data.name}</h5>
+      <p  id={value === `${data.id}` ?  "section4-card-sub-content-hover" : "section4-card-sub-content" }>{data.Description.substring(0,60)}...</p>
+      <button id={value === `${data.id}` ? "section4-card-button-hover" :"section4-card-button"}>Read More <i><FaArrowRight  /></i></button>
+    </div>
+  </div>
+  </div>
+  ))
+}
+
+
+            </div>
+        </div>
+
+        {/* Section 5 */}
       </div>
     </div>
   );
