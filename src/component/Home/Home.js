@@ -247,7 +247,7 @@ function Home() {
           
 {
   services.map((data) => (
-    <div  className="col-12 col-sm-6 col-md-6 col-lg-6" id="services-col">
+    <div  className="col-sm-6 col-md-6 col-lg-6" id="services-col">
     <div class="card" id="section4-card" onMouseOver={() => setValue(`${data.id}`)}  onMouseOut={() => setValue() }>
     <div id="section4-svg-icon">
         <img id="section4-card-icons" src={data.img} alt={data.img} />
