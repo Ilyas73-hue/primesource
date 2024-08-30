@@ -103,39 +103,174 @@ function Home() {
     <div id="Home">
       <div>
         {/* Section 1 */}
-          <section  id="home-section1">
-            <div id="home-section2">
-                <div id="home-section3">
-                <img
-              className="img-fluid"
-              id="home-section1-img"
-              src="https://primesourcellp.com/static/app/images/banner.svg?v=0.0"
-              alt="https://primesourcellp.com/static/app/images/banner.svg?v=0.0"
-            />
-                </div>
-                <div id="home-section4">
-                <div>
-              <h6 id="home-section1-h6-1">Find your dream job now</h6>
-              <p id="home-section1-sub-content-1">
-                HR consulting expertise that helps your business thrive.
+        <section id="home-section1">
+          <div id="home-section2">
+            <div id="home-section3">
+              <img
+                className="img-fluid"
+                id="home-section1-img"
+                src="https://primesourcellp.com/static/app/images/banner.svg?v=0.0"
+                alt="https://primesourcellp.com/static/app/images/banner.svg?v=0.0"
+              />
+            </div>
+            <div id="home-section4">
+              <div>
+                <h6 id="home-section1-h6-1">Find your dream job now</h6>
+                <p id="home-section1-sub-content-1">
+                  HR consulting expertise that helps your business thrive.
+                </p>
+              </div>
+              <div>
+                <h6 id="home-section1-h6-2">Your Career</h6>
+                <p id="home-section1-sub-content-2">
+                  Our Commitment Discover Success with PrimeSource Consulting
+                  LLP.
+                </p>
+              </div>
+              <div>
+                <button id="home-section1-button">Get started</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+                {/* Section 2 */}
+
+                <section className="container" id="home-section2-1"> 
+        <div id="marquee">
+          <div id="home-section2-row">
+          {
+    ser_api.map((data) => (
+      <div id="home-section2-col">
+      <div class="card" id="home-section2-card">
+        <div id="home-section2-card-img-div">
+        <img src={data.img} class="card-img-top" id="home-section2-card-img" alt="..." />
+        </div>
+        <div class="card-body">
+          <h5 class="card-title" id="home-section2-card-title">{data.name}</h5>
+        </div>
+      </div>
+      </div> 
+    ))
+  }
+   </div>
+   <div id="home-section2-row">
+          {
+    ser_api.map((data) => (
+      <div id="home-section2-col">
+      <div class="card" id="home-section2-card">
+        <div id="home-section2-card-img-div">
+        <img src={data.img} class="card-img-top" id="home-section2-card-img" alt="..." />
+        </div>
+        <div class="card-body">
+          <h5 class="card-title" id="home-section2-card-title">{data.name}</h5>
+        </div>
+      </div>
+      </div> 
+    ))
+  }
+   </div>
+          </div>
+        </section>
+
+{/* Section 3 */}
+
+<section className="container">
+  <div className="row" id="home-section3-1">
+          <div className="col-12 col-lg-12 col-xl-6" id="section3-div-1">
+            <div id="home-section3-div-2">
+              <h6 id="home-section3-h6-1">About our Company</h6>
+              <button id="hr_line" type="none"></button>
+            </div>
+            <div id="home-section3-div-3">
+              <p id="home-section3-sub-content">
+                Pan Indian operator providing solutions to your staffing
+                requirements.
               </p>
             </div>
-            <div>
-              <h6 id="home-section1-h6-2">Your Career</h6>
-              <p id="home-section1-sub-content-2">
-                Our Commitment Discover Success with PrimeSource Consulting LLP.
+            <div id="home-section3-div-4">
+              <p id="home-section3-sub-content1">
+                Founded on principles of excellence and integrity, Primesource
+                Consulting LLP has been a trusted partner for both employees and
+                job seekers. Our deep industry knowledge and extensive network
+                enable us to deliver exceptional placement services that drive
+                success for our clients and candidates alike.
               </p>
             </div>
-             <div>
-              <button id="home-section1-button">Get started</button>
-               </div>
+
+            <div id="home-section3-div-5">
+              <div id="home-section3-div-6">
+                <div  id="home-section3-div-7">
+                  <div className="mt-2 mb-2" id="home-section3-inside-1">
+                    <RiCheckboxCircleFill id="home-section3-checkbox-icon" />
+                    <p id="home-section3-inside-1-content">Documentation</p>
+                  </div>
+                  <div className="mt-2 mb-2" id="home-section3-inside-2">
+                    <RiCheckboxCircleFill id="home-section3-checkbox-icon" />
+                    <p id="home-section3-inside-2-content">Assignement</p>
+                  </div>
+                  <div className="mt-2 mb-2" id="home-section3-inside-3">
+                    <RiCheckboxCircleFill id="home-section3-checkbox-icon" />
+                    <p id="home-section3-inside-3-content">Orientation</p>
+                  </div>
+
+                  <div className="mt-2 mb-2" id="home-section3-inside-4">
+                    <RiCheckboxCircleFill id="home-section3-checkbox-icon" />
+                    <p id="home-section3-inside-4-content">Welcome Package</p>
+                  </div>
+                  <div className="mt-2 mb-2" id="home-section3-inside-5">
+                    <RiCheckboxCircleFill id="home-section3-checkbox-icon" />
+                    <p id="home-section3-inside-5-content">Training Plan</p>
+                  </div>
+                  <div className="mt-2 mb-2" id="home-section3-inside-6">
+                    <RiCheckboxCircleFill id="home-section3-checkbox-icon" />
+                    <p id="home-section3-inside-6-content">IT setup</p>
+                  </div>
                 </div>
-                </div>
-       </section>
+              </div>
+            </div>
+            </div>
+
+            <div className="col-12 col-xl-6">
+              <img className="img-fluid" id="home-section3-slide-img" src={img5} alt={img5} />
+            </div>
+            </div>
+        </section>
+
+                {/* Section 4 */}
+<section className="container">
+                <div className="row" id="home-section4-1">
+           <div id="home-section4-div-1">
+             <h6 id="home-section4-h6-1">Our services</h6>
+             <p id="home-section4-sub-content">Premier’s Service Talent Solutions: Connecting Excellence with opportunity</p>
+           </div>  
+
+            <div className="row row-cols-1 row-cols-md-3 g-4" id="home-section4-row">
+
+          
+{
+  services.map((data) => (
+    <div  className="col" id="home-services-col">
+    <div class="card" id="home-section4-card" onMouseOver={() => setValue(`${data.id}`)}  onMouseOut={() => setValue() }>
+    <div id="home-section4-svg-icon">
+        <img id="home-section4-card-icons" src={data.img} alt={data.img} />
+    </div>
+    <div class="card-body">
+      <h5 class="card-title" id={value === `${data.id}` ? "home-section4-card-title-hover" : "home-section4-card-title" }>{data.name}</h5>
+      <p  id={value === `${data.id}` ?  "home-section4-card-sub-content-hover" : "home-section4-card-sub-content" }>{data.Description.substring(0,60)}...</p>
+      <button id={value === `${data.id}` ? "home-section4-card-button-hover" :"home-section4-card-button"}>Read More <i><FaArrowRight  /></i></button>
+    </div>
+  </div>
+  </div>
+  ))
+}
+            </div>
+        </div>
+        </section>
+
       </div>
     </div>
   );
 }
 
 export default Home;
-
