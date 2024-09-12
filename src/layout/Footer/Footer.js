@@ -30,9 +30,9 @@ function Footer() {
             <div id="footer-div-2">
             <h5 id="footer-div-cont-h2">Useful Links</h5>
              <ul id="footer_ul">
-                <li id="footer_list"><a id="footer_ahref" href="/services">Our Services</a></li>
+                <li id="footer_list"><a id="footer_ahref" href="/service">Our Services</a></li>
                 <li id="footer_list"><a id="footer_ahref" href="/about">About Us</a></li>
-                <li id="footer_list"><a id="footer_ahref" href="/contact">Contact Us</a></li>
+                <li id="footer_list"><a id="footer_ahref" href="/contact_us">Contact Us</a></li>
              </ul>
             </div> 
             </div>

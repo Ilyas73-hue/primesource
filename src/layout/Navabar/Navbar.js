@@ -28,7 +28,7 @@ function Navbar() {
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse  navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav  ms-auto  mb-2 mb-lg-0">
+      <ul class="navbar-nav  ms-auto  mb-2 mb-lg-0" id="navbar-nav">
         <li class="nav-item" id="navbar-item">
           <a class="nav-link" id={url === "/" ?"navbar-link-active" : "navbar-link"}  href="/">Home</a>
         </li>
@@ -39,7 +39,10 @@ function Navbar() {
           <a class="nav-link" id={url === "/service" ?"navbar-link-active" : "navbar-link"} href="/service">Services</a>
         </li>
         <li class="nav-item" id="navbar-item">
-          <a class="nav-link" id={url === "/contact" ?"navbar-link-active" : "navbar-link"}href="/contact">Contact Us</a>
+          <a class="nav-link" id={url === "/career" ?"navbar-link-active" : "navbar-link"} href="/career">Career</a>
+        </li>
+        <li class="nav-item" id="navbar-item">
+          <a class="nav-link" id={url === "/contact_us" ?"navbar-link-active" : "navbar-link"}href="/contact_us">Contact Us</a>
         </li>
       </ul>
     </div>

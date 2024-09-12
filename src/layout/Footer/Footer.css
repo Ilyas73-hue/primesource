@@ -20,7 +20,8 @@
 
 
 #footer1{
-    padding: 100px;
+    padding-top: 100px;
+    padding-bottom: 80px;
 }
 
 /* section1 */
@@ -131,6 +132,9 @@
     border-radius: 100%;
 }
 
+#footer_list_div_1:hover{
+    background-color: var(--primary-color);
+}
 
 
 #footer-facebook-icon-1{
@@ -149,6 +153,10 @@
     align-items: center;
     justify-content: center;
     border-radius: 100%;
+}
+
+#footer_list_div_2:hover{
+    background-color: var(--primary-color);
 }
 
 #footer_list-2{
@@ -174,6 +182,10 @@
     border-radius: 100%;
 }
 
+#footer_list_div_3:hover{
+    background-color: var(--primary-color);
+}
+
 #footer_list-3{
     list-style-type: none;
 }
@@ -197,6 +209,10 @@
     border-radius: 100%;
 }
 
+#footer_list_div_4:hover{
+    background-color: var(--primary-color);
+}
+
 #footer_list-4{
     list-style-type: none;
 }
@@ -207,3 +223,4 @@
     color: var(--color3);
     margin-top: -4px;
 }
+

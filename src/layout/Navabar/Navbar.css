@@ -13,11 +13,15 @@
     position: fixed;
     z-index: 9999;
     width: 100%;
-
+    background-color: white;
 }
 
 #navbar-logo{
     width: 125px;
+}
+
+#navbar-nav{
+    gap: 50px;
 }
 
 #navbar-link{
@@ -38,9 +42,7 @@
     color: var(--hover1);
 }
 
-/* #navbar-item{
-    margin-left: 20px;
-} */
+
 
 #navbar-flex{
     display: flex;
@@ -144,4 +146,16 @@
     #navbar_phone_content{
         margin-top: -30px;
     }
+}
+
+@media (max-width: 1024px){
+    #navbar-nav{
+        gap: 0px;
+      }
+}
+
+@media (max-width: 920px){
+  #navbar-nav{
+    gap: 0px;
+  }
 }
