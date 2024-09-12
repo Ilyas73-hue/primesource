@@ -6,7 +6,7 @@ function Copywrite() {
     <div id='copywrite'>
       <div className='container' id="copywrite1">
             <p id="copywrite2">© Copyright 2021 prime. All Rights Reserved.</p>
-            <p id="copywrite2">Design by : <a id="copywrite_href" href="https://intwhizz.in/">Intwhizz</a></p>
+            <p id="copywrite2">Developed by : <a id="copywrite_href" href="https://intwhizz.in/">Intwhizz</a></p>
       </div>
     </div>
   )
