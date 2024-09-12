@@ -79,7 +79,7 @@ function Home() {
       id: 1,
       name: "WEB DEVELOPMENT",
       Description:
-        "Our Web development services cater to businesses looking to innovate and grow.",
+        "Our Web development services cater to businesses looking to innovate and grow. From concept to deployment",
       img: `${svg}`,
     },
     {
@@ -107,7 +107,7 @@ function Home() {
       id: 5,
       name: "HR CONSULTING",
       Description:
-        "Our HR consulting service are designed to streamline your recruitment process",
+        "Our HR consulting services are designed to streamlime your recruitment process, ensuring you find the right talent.",
       img: `${svg4}`,
     },
     {
@@ -116,7 +116,7 @@ function Home() {
       Description:
         "Our system streamlines your business operations, smart solutions for enhancement.",
       img: `${svg5}`,
-    },
+    }
   ];
 
   //Client Logo
@@ -361,11 +361,12 @@ function Home() {
         </section>
 
         {/* Section 4 */}
+        
         <section className="container">
-          <div className="row" id="home-section4-1">
-            <div id="home-section4-div-1">
-              <h6 id="home-section4-h6-1">Our services</h6>
-              <p id="home-section4-sub-content">
+          <div className="row" id="services-section4-1">
+            <div id="services-section4-div-1">
+              <h6 id="services-section4-h6-1">Our services</h6>
+              <p id="services-section4-sub-content">
                 Premier’s Service Talent Solutions: Connecting Excellence with
                 opportunity
               </p>
@@ -373,19 +374,19 @@ function Home() {
 
             <div
               className="row row-cols-1 row-cols-md-3 g-4"
-              id="home-section4-row"
+              id="services-section4-row"
             >
               {services.map((data) => (
-                <div className="col" id="home-services-col">
+                <div className="col" id="services-services-col">
                   <div
                     class="card"
-                    id="home-section4-card"
+                    id="services-section4-card"
                     onMouseOver={() => setValue(`${data.id}`)}
                     onMouseOut={() => setValue()}
                   >
-                    <div id="home-section4-svg-icon">
+                    <div id="services-section4-svg-icon">
                       <img
-                        id="home-section4-card-icons"
+                        id="services-section4-card-icons"
                         src={data.img}
                         alt={data.img}
                       />
@@ -395,8 +396,8 @@ function Home() {
                         class="card-title"
                         id={
                           value === `${data.id}`
-                            ? "home-section4-card-title-hover"
-                            : "home-section4-card-title"
+                            ? "services-section4-card-title-hover"
+                            : "services-section4-card-title"
                         }
                       >
                         {data.name}
@@ -404,17 +405,17 @@ function Home() {
                       <p
                         id={
                           value === `${data.id}`
-                            ? "home-section4-card-sub-content-hover"
-                            : "home-section4-card-sub-content"
+                            ? "services-section4-card-sub-content-hover"
+                            : "services-section4-card-sub-content"
                         }
                       >
-                        {data.Description.substring(0, 60)}...
+                        {data.Description}
                       </p>
                       <button
                         id={
                           value === `${data.id}`
-                            ? "home-section4-card-button-hover"
-                            : "home-section4-card-button"
+                            ? "services-section4-card-button-hover"
+                            : "services-section4-card-button"
                         }
                       >
                         Read More{" "}
@@ -429,6 +430,8 @@ function Home() {
             </div>
           </div>
         </section>
+
+
         {/* Section5 */}
         <section id="home-section5-1">
           <div id="home-section5-2">
@@ -557,3 +560,77 @@ function Home() {
 
 export default Home;
 
+
+
+
+
+
+
+{/* <section className="container">
+<div className="row" id="home-section4-1">
+  <div id="home-section4-div-1">
+    <h6 id="home-section4-h6-1">Our services</h6>
+    <p id="home-section4-sub-content">
+      Premier’s Service Talent Solutions: Connecting Excellence with
+      opportunity
+    </p>
+  </div>
+
+  <div
+    className="row row-cols-1 row-cols-md-3 g-4"
+    id="home-section4-row"
+  >
+    {services.map((data) => (
+      <div className="col" id="home-services-col">
+        <div
+          class="card"
+          id="home-section4-card"
+          onMouseOver={() => setValue(`${data.id}`)}
+          onMouseOut={() => setValue()}
+        >
+          <div id="home-section4-svg-icon">
+            <img
+              id="home-section4-card-icons"
+              src={data.img}
+              alt={data.img}
+            />
+          </div>
+          <div class="card-body">
+            <h5
+              class="card-title"
+              id={
+                value === `${data.id}`
+                  ? "home-section4-card-title-hover"
+                  : "home-section4-card-title"
+              }
+            >
+              {data.name}
+            </h5>
+            <p
+              id={
+                value === `${data.id}`
+                  ? "home-section4-card-sub-content-hover"
+                  : "home-section4-card-sub-content"
+              }
+            >
+              {data.Description}
+            </p>
+            <button
+              id={
+                value === `${data.id}`
+                  ? "home-section4-card-button-hover"
+                  : "home-section4-card-button"
+              }
+            >
+              Read More{" "}
+              <i>
+                <FaArrowRight />
+              </i>
+            </button>
+          </div>
+        </div>
+      </div>
+    ))}
+  </div>
+</div>
+</section> */}
