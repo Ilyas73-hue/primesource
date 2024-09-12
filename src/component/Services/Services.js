@@ -17,6 +17,11 @@ import logo1 from "../../assets/client_logo_1.png";
 import logo2 from "../../assets/client_logo_2.png";
 import logo3 from "../../assets/client_logo_3.png";
 import logo4 from "../../assets/client_logo_4.png";
+import logo5 from "../../assets/client_logo_5.png";
+import logo6 from "../../assets/client_logo_6.png";
+import logo7 from "../../assets/client_logo_7.png";
+import logo8 from "../../assets/client_logo_8.png";
+import logo9 from "../../assets/client_logo_9.png";
 
 function Services() {
 
@@ -135,6 +140,47 @@ function Services() {
         "We work closely with our clients, building long term relationships based on trust and mutual success.",
     },
   ];
+
+    //Client Logo
+
+    const client_logo = [
+      {
+      id: 1,
+      image: `${logo1}`
+    },
+    {
+      id: 2,
+      image: `${logo2}`
+    },
+    {
+      id: 3,
+      image: `${logo3}`
+    },
+    {
+      id: 4,
+      image: `${logo4}`
+    },
+    {
+      id: 5,
+      image: `${logo5}`
+    },
+    {
+      id: 6,
+      image: `${logo6}`
+    },
+    {
+      id: 7,
+      image: `${logo7}`
+    },
+    {
+      id: 8,
+      image: `${logo8}`
+    },
+    {
+      id: 9,
+      image: `${logo9}`
+    },
+  ]
 
 
   return (
@@ -260,14 +306,28 @@ function Services() {
         </section>
                 {/* Section 4 */}
 
-                <section id="services-section4">
-          <div id="services-section4-logo">
+                <section id="section6">
+          <div id="home-section6-logo">
             <div className="container">
-              <div id='services-section4-1'>
-                 <img id="services-section4-logo-img" src={logo1} alt={logo1} />
-                 <img id="services-section4-logo-img" src={logo2} alt={logo2} />
-                 <img id="services-section4-logo-img" src={logo3} alt={logo3} />
-                 <img id="services-section4-logo-img" src={logo4} alt={logo4} />
+              <div id="scroll-home-section-logo">
+                <div id="row-home-logo-section">
+                {
+              client_logo.map((item) => (
+                <div id='section6-1'>
+                 <img id="section6-logo-img" src={item.image} alt={item.image} />
+              </div>
+              ))
+            }
+                </div>
+                <div id="row-home-logo-section">
+                {
+              client_logo.map((item) => (
+                <div id='section6-1'>
+                 <img id="section6-logo-img" src={item.image} alt={item.image} />
+              </div>
+              ))
+            }
+                </div>
               </div>
             </div>
           </div>
