@@ -47,6 +47,8 @@
 }
 
 
+
+
 #home-section1-h6-1{
     font-family: var(--poppins);
     color: var(--text-color1);
@@ -308,20 +310,21 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
 }
 
 #home-section3-inside-1-content{
     font-family: var(--poppins);
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
     color: black;
     margin-top: 15px;
+    margin-left: 10px;
 }
 
 #home-section3-checkbox-icon{
     color: var(--primary-color);
     font-size: 23px;
+    margin-left: 20px;
 }
 
 #home-section3-inside-2{
@@ -331,15 +334,15 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
 }
 
 #home-section3-inside-2-content{
     font-family: var(--poppins);
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
     color: black;
     margin-top: 15px;
+    margin-left: 10px;
 }
 
 #home-section3-inside-3{
@@ -349,15 +352,15 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
 }
 
 #home-section3-inside-3-content{
     font-family: var(--poppins);
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
     color: black;
     margin-top: 15px;
+    margin-left: 10px;
 }
 
 #home-section3-div-8{
@@ -373,15 +376,15 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
 }
 
 #home-section3-inside-4-content{
     font-family: var(--poppins);
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
     color: black;
     margin-top: 15px;
+    margin-left: 10px;
 }
 
 #home-section3-inside-5{
@@ -391,15 +394,15 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
 }
 
 #home-section3-inside-5-content{
     font-family: var(--poppins);
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
     color: black;
     margin-top: 15px;
+    margin-left: 10px;
 }
 
 
@@ -410,15 +413,15 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
 }
 
 #home-section3-inside-6-content{
     font-family: var(--poppins);
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
     color: black;
     margin-top: 15px;
+    margin-left: 10px;
 }
 
 
