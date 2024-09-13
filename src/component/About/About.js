@@ -99,7 +99,8 @@ function About() {
                   <div id="about5">
                     <p id="about-p-1">Home/<i id="about-i">About us</i></p>
                     <h6 id="about-h6">About us</h6>
-                    <p id="about-p-2">Pan Indian operator providing solutions to your staffing requirements.</p>
+                    <p id="about-p-2">Pan India operator providing solutions to your staffing
+                    requirements.</p>
                   </div>
                </div>
               </div>
@@ -122,8 +123,8 @@ function About() {
               </div>
               <div id="home-section3-div-4">
                 <p id="home-section3-sub-content1">
-                  Founded on principles of excellence and integrity, Primesource
-                  Consulting LLP has been a trusted partner for both employees
+                Founded on principles of excellence and integrity, Primesource
+                  Consulting LLP has been a trusted partner for both employers
                   and job seekers. Our deep industry knowledge and extensive
                   network enable us to deliver exceptional placement services
                   that drive success for our clients and candidates alike.
@@ -139,7 +140,7 @@ function About() {
                     </div>
                     <div className="mt-2 mb-2" id="home-section3-inside-2">
                       <RiCheckboxCircleFill id="home-section3-checkbox-icon" />
-                      <p id="home-section3-inside-2-content">Assignement</p>
+                      <p id="home-section3-inside-2-content">Assignment</p>
                     </div>
                     <div className="mt-2 mb-2" id="home-section3-inside-3">
                       <RiCheckboxCircleFill id="home-section3-checkbox-icon" />
