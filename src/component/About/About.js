@@ -10,6 +10,7 @@ import logo_white_2 from "../../assets/logo_white_2.png";
 import logo_white_3 from "../../assets/logo_white_3.png";
 import slide_1 from "../../assets/click_img_1.png";
 import slide_2 from "../../assets/click_img_2.png";
+import slide_3 from "../../assets/slide_img_3.png";
 import { FaAngleDown } from "react-icons/fa";
 
 
@@ -74,6 +75,44 @@ function About() {
       name: "Mentor Assignment",
       description: "Pair new hires with a mentor to guide them through their first weeks and answer any questions."
      },
+]
+
+
+const data2 = [{
+  id: 1, 
+  name: "Investing in Your Team’s Well-being",
+  description: "At Primesource Consulting LLP, we believe that taking care of your employees is essential for fostering a motivated and productive workforce. Our services ensure that your employee benefits program is comprehensive and effective."
+},
+{
+  id: 2, 
+  name: "Health and Wellness",
+  description: "We help you design and manage health insurance plans, wellness programs, and other health-related benefits that support your employees’ physical and mental well-being."
+},
+{
+  id: 3, 
+  name: "Retirement Plans",
+  description: "Our experts assist in setting up and maintaining retirement savings plans, ensuring your employees can plan for a secure future."
+},
+{
+  id: 4, 
+  name: "Paid Time Off",
+  description: "We advise on policies for vacation, sick leave, and personal days, helping you balance employee needs with business requirements."
+},
+{
+  id: 5, 
+  name: "Professional Development",
+  description: "Invest in your team’s growth with training programs, tuition reimbursement, and career development opportunities."
+},
+{
+  id: 6, 
+  name: "Employee Assistance Programs (EAPs)",
+  description: "Provide support for personal and professional challenges with confidential counseling and resources."
+},
+{
+  id: 7, 
+  name: "Work-Life Balance",
+  description: "Implement flexible working arrangements, parental leave, and other initiatives that promote a healthy work-life balance."
+}
 ]
 
 
@@ -202,7 +241,7 @@ function About() {
                            checklist</p>
                         </div>
                   </div>
-                  <div id={ click === 3 ? "about-section3-4" : "about-section3-4-not-active" }>
+                  <div id={ click === 3 ? "about-section3-4" : "about-section3-4-not-active" } onClick={() => tabs(3)}>
                         <div id={ click === 3 ? "about-section3-5" : "about-section3-5-not-active" } >
                         { click === 3 ? <img src={logo_primary_3} alt={logo_primary_3} /> : <img src={logo_white_3} alt={logo_white_3} /> } 
                         </div>
@@ -271,6 +310,47 @@ function About() {
     <div id="about-section3-23-flex">
       {
         data1.map((item, i) => (
+          <div id="about-section3-23">
+          <div id="about-section3-24" onClick={() => toggle(i)}>
+             <p id="about-section3-24-p">{item.name}</p>
+             <FaAngleDown id="about-section3-angle" />
+          </div>
+          <div id={ selected === i ? "about-section3-25" : "about-section3-25-not-click" }>
+            <p id="about-section3-26">{item.description}</p>
+          </div>
+    </div>
+        ))
+      }
+
+
+    </div>
+
+    </div>
+    </div>
+   </div>
+    </div>
+  : ""
+}
+
+
+{/* click 3 */}
+
+{
+  click === 3 ? 
+    <div id="about-section3-17">
+         <div id="about-section3-18">
+    <div id="about-section3-19">
+      <div id="about-section3-20">
+        <img id="about-section3-img-1" src={slide_3} alt={slide_3} />
+      </div>
+      <div id="about-section3-21">
+      <div id="about-section3-22">
+      <h6 id="about-section3-22-h6-1">TAKING CARE OF EMPLOYEE BENEFITS</h6>
+      </div>
+
+    <div id="about-section3-23-flex">
+      {
+        data2.map((item, i) => (
           <div id="about-section3-23">
           <div id="about-section3-24" onClick={() => toggle(i)}>
              <p id="about-section3-24-p">{item.name}</p>

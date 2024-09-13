@@ -52,7 +52,7 @@ function Home() {
     },
     {
       id: 3,
-      name: "Sap Consulting",
+      name: "SAP Consulting",
       img: `${img3}`,
     },
     {
@@ -100,7 +100,7 @@ function Home() {
       id: 4,
       name: "SAP CONSULTING",
       Description:
-        "SAP consulting service, we help businesses optimize their operation and achieve greater efficiency",
+        "SAP Consulting service, we help businesses optimize their operation and achieve greater efficiency",
       img: `${svg3}`,
     },
     {
