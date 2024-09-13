@@ -121,6 +121,7 @@
 
 #carrer-section2-5-img{
     border-radius: 6px;
+    width: 600px;
 }
 
 #career-section2-6{
@@ -185,8 +186,9 @@
     gap: 20px;
 }
 
-#carrer-section2--img{
+#carrer-section2-9-img{
     border-radius: 6px;
+    width: 600px;
 }
 
 /* Section 2-3 */
@@ -202,6 +204,7 @@
 
 #carrer-section2-11-img{
     border-radius: 6px;
+    width: 600px;
 }
 
 #career-section2-12{
@@ -269,7 +272,10 @@
 
 #carrer-section2-15-img{
     border-radius: 6px;
+    width: 600px;
 }
+
+
 
 
 
@@ -358,7 +364,7 @@
     }
 
     #career-section2-13{
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
 }
@@ -397,6 +403,26 @@
 
         #career-section-3-2-p{
             text-align: justify;
+        }
+    }
+
+
+    @media (max-width: 650px){
+
+        #carrer-section2-5-img{
+            width: 100%;
+        }
+
+        #carrer-section2-9-img{
+            width: 100%;
+        }
+
+        #carrer-section2-11-img{
+            width: 100%;
+        }
+
+        #carrer-section2-15-img{
+            width: 100%;
         }
     }
 

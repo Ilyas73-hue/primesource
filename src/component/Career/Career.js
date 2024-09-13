@@ -42,7 +42,7 @@ function Career() {
          {/* Section 1 */}
         <div id="career-section2-4">
           <div id="career-section2-5">
-             <img className='img-fluid' id="carrer-section2-5-img" src={career_img_1} alt={career_img_1} />
+             <img  id="carrer-section2-5-img" src={career_img_1} alt={career_img_1} />
           </div>
           <div id="career-section2-6">
             <h6 id="career-section2-6-h6">Innovative Projects</h6>
@@ -55,11 +55,11 @@ function Career() {
         <div id="career-section2-7">
           <div id="career-section2-8">
           <h6 id="career-section2-8-h6">Career Growth</h6>
-          <p id="career-section2-8-p">We prioritize your professional development. With access to the latest tools, training programs, and a network of industry leaders, your career will be on the fast track to I success.</p>
+          <p id="career-section2-8-p">We prioritize your professional development. With access to the latest tools, training programs, and a network of industry leaders, your career will be on the fast track to success.</p>
 
           </div>
           <div id="career-section2-9">
-          <img className='img-fluid' id="carrer-section2-9-img" src={career_img_2} alt={career_img_2} />  
+          <img id="carrer-section2-9-img" src={career_img_2} alt={career_img_2} />  
           </div>
         </div>
 
@@ -67,7 +67,7 @@ function Career() {
 
           <div id="career-section2-10">
           <div id="career-section2-11">
-             <img className='img-fluid' id="carrer-section2-11-img" src={career_img_3} alt={career_img_3} />
+             <img  id="carrer-section2-11-img" src={career_img_3} alt={career_img_3} />
           </div>
           <div id="career-section2-12">
             <h6 id="career-section2-12-h6">Global Opportunities</h6>
@@ -84,7 +84,7 @@ function Career() {
 
           </div>
           <div id="career-section2-15">
-          <img className='img-fluid' id="carrer-section2-15-img" src={career_img_4} alt={career_img_4} />  
+          <img id="carrer-section2-15-img" src={career_img_4} alt={career_img_4} />  
           </div>
         </div>
 
