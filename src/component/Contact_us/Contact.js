@@ -51,7 +51,7 @@ function Contact() {
                          </div>
                          <div id="contact-section7-9">
                             <h6 id="contact-section7-h6-2">Make a call</h6>
-                            <p id="contact-section7-p-2">+91 818991250</p>
+                            <p id="contact-section7-p-2">+91 8189991250</p>
                          </div>
                      </div>
                      {/* Email */}
@@ -61,7 +61,7 @@ function Contact() {
                          </div>
                          <div id="contact-section7-12">
                             <h6 id="contact-section7-h6-3">Send mail</h6>
-                            <p id="contact-section7-p-3">Recruit@Primesourcellp.com</p>
+                            <p id="contact-section7-p-3">recruit@primesourcellp.com</p>
                          </div>
                      </div>
                    </div>

@@ -58,7 +58,7 @@ function Navbar() {
         <div id="navbar-phone-icons-div">
           <FaPhoneFlip id="navbar_phone_icon" />
           </div>
-          <p id="navbar-phone-text">81899 91250</p>
+          <p id="navbar-phone-text">8189991250</p>
         </div>
       </div>
     </div>

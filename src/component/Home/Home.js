@@ -302,14 +302,14 @@ function Home() {
               </div>
               <div id="home-section3-div-3">
                 <p id="home-section3-sub-content">
-                  Pan Indian operator providing solutions to your staffing
+                  Pan India operator providing solutions to your staffing
                   requirements.
                 </p>
               </div>
               <div id="home-section3-div-4">
                 <p id="home-section3-sub-content1">
                   Founded on principles of excellence and integrity, Primesource
-                  Consulting LLP has been a trusted partner for both employees
+                  Consulting LLP has been a trusted partner for both employers
                   and job seekers. Our deep industry knowledge and extensive
                   network enable us to deliver exceptional placement services
                   that drive success for our clients and candidates alike.
@@ -325,7 +325,7 @@ function Home() {
                     </div>
                     <div className="mt-2 mb-2" id="home-section3-inside-2">
                       <RiCheckboxCircleFill id="home-section3-checkbox-icon" />
-                      <p id="home-section3-inside-2-content">Assignement</p>
+                      <p id="home-section3-inside-2-content">Assignment</p>
                     </div>
                     <div className="mt-2 mb-2" id="home-section3-inside-3">
                       <RiCheckboxCircleFill id="home-section3-checkbox-icon" />
@@ -521,7 +521,7 @@ function Home() {
                          </div>
                          <div id="section7-9">
                             <h6 id="section7-h6-2">Make a call</h6>
-                            <p id="section7-p-2">+91 818991250</p>
+                            <p id="section7-p-2">+91 8189991250</p>
                          </div>
                      </div>
                      {/* Email */}
@@ -531,7 +531,7 @@ function Home() {
                          </div>
                          <div id="section7-12">
                             <h6 id="section7-h6-3">Send mail</h6>
-                            <p id="section7-p-3">Recruit@Primesourcellp.com</p>
+                            <p id="section7-p-3">Rrecruit@primesourcellp.com</p>
                          </div>
                      </div>
                    </div>

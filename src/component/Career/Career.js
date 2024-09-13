@@ -101,7 +101,7 @@ function Career() {
                <div id="career-section-3-2">
                 <div id="career-section-3-2-1">
                  <p id="career-section-3-2-p">Ready to take your career to the next level. Send your Resume
-                 and a cover lover to the email address recruit@primesourcellp.com</p>
+                 and a cover letter to the email address recruit@primesourcellp.com</p>
                  <button id="career-section-3-2-button">Apply Now</button>
                 </div>
                 <div id="career-section-3-3">
