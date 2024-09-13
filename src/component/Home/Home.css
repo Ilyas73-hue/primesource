@@ -431,6 +431,12 @@
      }
 }
 
+@media (max-width: 540px){
+    #home-section3-1{
+       padding-bottom: 50px;
+    }
+}
+
 @media (max-width: 443px){
 
    #home-section3-div-2{
@@ -738,12 +744,19 @@ display: none;
 }
 
 @media (max-width: 540px){
+  
+    #home-section5-h6{
+        font-size: 18px;
+    }
+
     #home-plus-icon{
         margin-bottom: 10px;
     }
     #home-minus-icon{
         margin-bottom: 10px;
     }
+
+
 }
 
 @media (max-width: 516px){
