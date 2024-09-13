@@ -531,7 +531,7 @@ function Home() {
                          </div>
                          <div id="section7-12">
                             <h6 id="section7-h6-3">Send mail</h6>
-                            <p id="section7-p-3">Rrecruit@primesourcellp.com</p>
+                            <p id="section7-p-3">recruit@primesourcellp.com</p>
                          </div>
                      </div>
                    </div>
