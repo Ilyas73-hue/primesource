@@ -117,7 +117,7 @@ function About() {
               </div>
               <div id="home-section3-div-3">
                 <p id="home-section3-sub-content">
-                  Pan Indian operator providing solutions to your staffing
+                  Pan India operator providing solutions to your staffing
                   requirements.
                 </p>
               </div>
